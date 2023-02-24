@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes} from "react-router-dom";
+import Darkmode from "./components/Darkmode";
+// import Hero from "./components/Hero";
+import NavBar from "./components/NavBar"
+import SideBar from "./components/SideBar";
+import "./index.css"
+import Home from "./routes/Home";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+
+    <body className="app">
+    <div className="absolute w-full right-0 top-0">
+    <div className="nav">
+            <NavBar />
+            <SideBar />
+            <Darkmode />
+        </div>
     </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+
+        </Routes>
+    </body>
+        
+    </>
   );
 }
 
