@@ -42,6 +42,7 @@ body {
   color: #222;
   font-weight: 700;
   font-size: 20px;
+  text-align: center;
 }
 
 .col {
@@ -53,4 +54,5 @@ body {
   margin: 10px; */
   text-decoration: none;
   color: #222;
+  text-align: center;
 }

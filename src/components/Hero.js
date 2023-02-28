@@ -8,7 +8,7 @@ const Hero = () => {
   return (
         <div className="hero">
             <div className="content">
-                <h1>Basic icons for product <br/> design & development</h1>
+                <h1>Basic icons for product design & development</h1>
                 <p>326+ icons . Growing collection . 24 x 24 pixel perfect</p>
             </div>
             <div className="button-container">
@@ -16,7 +16,7 @@ const Hero = () => {
               <Link to="documentation" className="btn-light"><CodeTechDev />  Documentation </Link>
             </div>
         </div>
-  )
+  );
 }
 
 export default Hero;

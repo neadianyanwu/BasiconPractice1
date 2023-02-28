@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="header">
-        <h3 className="text-black dark:text-white">
+        <h3>
             <Link to="/" className="logo">BASICONS</Link>
         </h3>
     </div>
