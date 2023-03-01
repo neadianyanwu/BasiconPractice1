@@ -9,7 +9,7 @@
 
 .search-bar .search-box {
     position: fixed;
-    top: 525px;
+    /* top: 525px; */
     width: 100vw;
     display: flex;
     flex-direction: row;
