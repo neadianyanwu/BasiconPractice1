@@ -7,7 +7,7 @@
     width: 10vw;
 }
 
-#button1 {
+#section #button1 {
     display: inline-block;
     margin-left: 50px;
 }
@@ -30,4 +30,3 @@
 #btn1:hover {
     color: #296e5e;
 }
-

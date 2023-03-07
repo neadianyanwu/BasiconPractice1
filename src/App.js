@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar"
 import SideBar from "./components/SideBar";
 import "./index.css"
 import Home from "./routes/Home";
+import Measurements from "./components/Measurements";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <div className="nav">
             <NavBar />
             <SideBar />
+            <Measurements />
         </div>
         <Routes>
             <Route path="/" element={<Home />} />
