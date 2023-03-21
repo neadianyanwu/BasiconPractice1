@@ -1,11 +1,13 @@
 .size {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     font-size: 18px;
     font-weight: 300;
     margin: 60px;
     padding: 20px;
-    width: 10vw;
-    margin-left: -150px;
+    width: 100%;
 }
 
 .container{
@@ -19,10 +21,14 @@
     font-size: 15px;
 }
 
-table, th, .column {
+table, th, .column .item{
+    position: relative;
+    height: 5vh;
     width: 10vw;
     margin: 30px;
-    margin-left: -30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
     border: 2px solid #343434;
     padding: .3em 1.5em;
     font-size: 15px;
@@ -32,11 +38,11 @@ table, th, .column {
     cursor: pointer;
     color: #808080 ;
     background-color: #fff; 
+    z-index: 0;
 }
 
-/* .animate {
+/* .item {
     position: absolute;
-    height: 100%;
     top: 0;
     z-index: 0;
     background: #0f0f0f;
@@ -45,5 +51,5 @@ table, th, .column {
 } */
 
 .item:hover {
-    background-color: #ccc;
+    background-color: #343434;
 }

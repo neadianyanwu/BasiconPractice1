@@ -12,8 +12,8 @@ const Hero = () => {
                 <p>326+ icons . Growing collection . 24 x 24 pixel perfect</p>
             </div>
             <div className="button-container">
-              <Link to="/downloadall" className="btn"> <Download />  Download all </Link>
-              <Link to="documentation" className="btn-light"><CodeTechDev />  Documentation </Link>
+              <Link to="/downloadall" className="btn"> <Download  size={16} style={{color: "#fff"}} />  Download all </Link>
+              <Link to="documentation" className="btn-light"><CodeTechDev  size={16} style={{color: "#fff"}} />  Documentation </Link>
             </div>
         </div>
   );
